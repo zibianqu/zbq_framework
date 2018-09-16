@@ -1,0 +1,20 @@
+{
+	"name":"aproject",
+	"version":"1.0",
+	"description":" study project make mvc framework",
+	"type":"project",
+	"autoload": {
+		"psr-4":{
+	        "app\\":"app/"
+		},
+		"files":[
+			"app/comm/function.php"
+		]
+	},
+	"require": {
+	    "symfony/routing":">=4.1-stable",
+		"monolog/monolog": "^1.23",
+		"illuminate/database": "^5.7",
+		"illuminate/view": "^5.7"    
+	}
+}
